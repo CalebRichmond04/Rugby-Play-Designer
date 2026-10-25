@@ -1,12 +1,9 @@
 GPT CHAT LINK: https://chatgpt.com/share/6ade44fc-a6c0-83ea-ad2c-5b09b1265efa
 
+Github: https://github.com/CalebRichmond04/Rugby-Play-Designer
 
 Easiest way to access project (FIGMA)
 FIGMA LINK:https://www.figma.com/make/44IDy7W18WQKUZRvFlBSJS/Recreate-Rugby-Play-Designer?t=BQu4HbnsFEgTCXcI-1
-
-
-
-
 
 
 
