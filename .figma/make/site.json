@@ -1,0 +1,10 @@
+{
+  "description": "Design and visualize rugby plays with an intuitive interface featuring a detailed pitch, navigation tools, and playback controls for coaches and players.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
