@@ -1,9 +1,21 @@
-GPT CHAT LINK: https://chatgpt.com/share/6ade44fc-a6c0-83ea-ad2c-5b09b1265efa
+GPT CHAT LINK: https://chatgpt.com/share/6ae9460e-760c-83ea-9db8-73adba67c0b8
+^Continued conversation from milestone 1 completion^
 
 Github: https://github.com/CalebRichmond04/Rugby-Play-Designer
 
 Easiest way to access project (FIGMA)
-FIGMA LINK:https://www.figma.com/make/44IDy7W18WQKUZRvFlBSJS/Recreate-Rugby-Play-Designer?t=BQu4HbnsFEgTCXcI-1
+FIGMA LINK:https://www.figma.com/make/44IDy7W18WQKUZRvFlBSJS/Recreate-Rugby-Play-Designer?t=IuXP2SU24sVZzDbd-1
+
+
+Milestone 1
+
+I have converted my Figma draft into Figma Make. All UI elements are now implemented, and most have some basic functionality.
+
+Currently, users can place and remove elements on the field, but they cannot move them yet.
+
+I have also implemented the UI for a future drawing feature, which will allow users to draw on the field.
+
+Milestone 2 will focus on allowing users to select and move elements around the field.
 
 
 
