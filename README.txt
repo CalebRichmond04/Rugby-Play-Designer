@@ -18,6 +18,23 @@ I have also implemented the UI for a future drawing feature, which will allow us
 Milestone 2 will focus on allowing users to select and move elements around the field.
 
 
+Milestone 2
+
+Full functionalty from a basic level of the app is now functional
+
+- Players, movement arrows, and the ball can now be selected and moved around the field.
+
+- Players can have designated movement arrows associated with them.
+
+- Players can hold the ball and have associated actions, including passing and kicking.
+
+- Player placements and movements are saved separately for each phase.
+
+- Implemented the ability to place and manage movement paths on the field.
+
+- Finalized the visual design and improved the overall functionality of the interface.
+
+
 
 BELOW IS HOW TO RUN THIS ON VISUAL STUDIO CODE
 
