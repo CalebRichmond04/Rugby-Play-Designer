@@ -6,6 +6,7 @@ import {
   type PointerEvent as ReactPointerEvent,
   type ReactNode,
 } from "react"
+import { clonePhasePlayData } from "./phaseCarryOver"
 
 const assetPath = "/assets"
 
@@ -2682,11 +2683,36 @@ export default function App() {
   }, [activePanel])
 
   const addPhase = () => {
+    const precedingPhase = phases[phases.length - 1]
     const phaseId = `phase-${nextPhaseId.current}`
     nextPhaseId.current += 1
+    const playData = precedingPhase
+      ? clonePhasePlayData(precedingPhase.playData, {
+          ballAction: () => {
+            const id = `ball-action-${nextBallActionId.current}`
+            nextBallActionId.current += 1
+            return id
+          },
+          independentMovement: () => {
+            const id = `movement-${nextMovementId.current}`
+            nextMovementId.current += 1
+            return id
+          },
+          playerMovement: () => {
+            const id = `player-movement-${nextPlayerMovementId.current}`
+            nextPlayerMovementId.current += 1
+            return id
+          },
+        })
+      : createPhase(phaseId, "").playData
+
     setPhases((current) => [
       ...current,
-      createPhase(phaseId, `Phase ${current.length + 1}`),
+      {
+        id: phaseId,
+        name: `Phase ${current.length + 1}`,
+        playData,
+      },
     ])
   }
 
