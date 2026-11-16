@@ -35,6 +35,7 @@ Full functionalty from a basic level of the app is now functional
 - Finalized the visual design and improved the overall functionality of the interface.
 
 
+Milestone 3
 
 NOTE
 *Due to running out of credits before I could finish the app, I wasn't able to fulfill the milestone requirements fully.
