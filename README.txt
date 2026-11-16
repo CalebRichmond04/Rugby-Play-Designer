@@ -1,10 +1,10 @@
-GPT CHAT LINK: https://chatgpt.com/share/6ae9460e-760c-83ea-9db8-73adba67c0b8
-^Continued conversation from milestone 1 completion^
+GPT CHAT LINK: https://chatgpt.com/share/6afb7b56-79ec-83ea-9a0d-7561058ea156
+^Continued conversation from milestone 2 completion^
 
 Github: https://github.com/CalebRichmond04/Rugby-Play-Designer
 
 Easiest way to access project (FIGMA)
-FIGMA LINK:https://www.figma.com/make/44IDy7W18WQKUZRvFlBSJS/Recreate-Rugby-Play-Designer?t=IuXP2SU24sVZzDbd-1
+FIGMA LINK:https://www.figma.com/make/44IDy7W18WQKUZRvFlBSJS/Recreate-Rugby-Play-Designer?t=3zfEYD0Aifwd8Ixi-1
 
 
 Milestone 1
@@ -33,6 +33,27 @@ Full functionalty from a basic level of the app is now functional
 - Implemented the ability to place and manage movement paths on the field.
 
 - Finalized the visual design and improved the overall functionality of the interface.
+
+
+
+NOTE
+*Due to running out of credits before I could finish the app, I wasn't able to fulfill the milestone requirements fully.
+*I will be making this app my final project for the class.
+*I do plan on expanding the app a good amount once the credits reset.
+
+Phase Carryover
+
+New phases are now duplicated from the previous phase, making it easier to create and edit multiple phases.
+
+Each phase is independent, so once a copy has been made, any changes to one phase are not reflected in the other.
+
+Workflow for the feature
+1. User edits Phase 1.
+2. User clicks the Phases tab and adds a new phase "Phase 2".
+3. "Phase 2" is created as a snapshot of Phase 1.
+4. User can now edit both phases independently.
+5. When the user adds another phase, "Phase 2" becomes the starting snapshot for the new phase.
+6. NOTE Existing phases do not copy changes made to previous phases after their initial creation.
 
 
 
